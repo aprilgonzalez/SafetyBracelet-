@@ -2,44 +2,119 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Consent is the best </title>
+    <title> The Safety Bracelet </title>
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
   </head>
+  <script>  function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+      center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+  }
+
+  </script>
 
 <style>
-/* body,h1,h2,h3,h4,h5 {
-  font-family: "Raleway",
-   sans-serif,
-   text-align:4px;
-
- } */
+body {
+    position: relative;
+}
+#section1 {padding-top:10px;height:500px;color: #fff;}
+#section2 {padding-top:10px;height:500px;color: #fff;}
+#section3 {padding-top:10px;height:500px;color: #fff; }
 
 </style>
-<body>
-  <h1>Sexual Assault</h1>
+<body  class="w3-light-grey"  data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">#Time'sUp</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Safety Bracelet</a></li>
+          <li><a href="#section2">Mission Statement </a></li>
+          <li><a href="#section3">Location</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<br>
+<br>
+<h1><b><center> Sexual Assault Prevention</b></h1>
+
   <p style="text-align:5px;"> <b> ALISON BRIE </b> </p>
   <center>
   <p><i>
-"It's important to me to stand with all the women who have come forward with their own experience with sex harassment and abuse. I'm so in awe about that bravery and its important to stand with women who don't feel like they have a voice and represent them here. And I love that this movement is not just bout talking about an issue, it's actually about taking action for that issue and the Legal Defense Fund has been set up to provide aid for people who can't afford it. People can continue to donate if you go to timesupnow.com." </i> </p>
+"It's important to me to stand with all the women who have come forward with their own experience with sex harassment and abuse. I'm so in awe about that bravery and its important to stand with women who don't feel like they have a voice and represent them here. And I love that this movement is not just bout talking about an issue, it's actually about taking action for that issue and the Legal Defense Fund has been set up to provide aid for people who can't afford it. People can continue to donate if you go to." </i> </p>
 </center>
-<img src="quote.jpg" alt="quote" class="center">
-  <!-- <p>97% of rapists never spend a single day in jail for their crimes (RAINN)</p>
-  <p>As a result of this "only 310 out of every 1,000 sexual assaults get reported (RAINN)" </p>
-  <p> 82% of all victims under 18 are female (RAINN) </p> -->
-</body>
-<body class="w3-light-grey">
+<!-- <img src="https://github.com/aprilgonzalez/SafetyBracelet-/blob/master/safetypic.jpg" alt="quote" class="center"> -->
 
 <!-- w3-content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
+<!--Bootstrap carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://worldonline.media.clients.ellingtoncms.com/img/photos/2017/09/12/KU_what_wearing_sapec_1_t1200.JPG?57a0c2296240c280e9492005c3cad63e7cbe80f4" alt="What Where You Wearing Art Exhibit">
+    </div>
+
+    <div class="item">
+      <img src="https://static1.squarespace.com/static/5a446e1d692ebea0061c7cd9/t/5a4d378b0d929708502d2747/1515009942483/LetterOfSolidarity.png?format=1500w" alt="#TimesUp Letter of Solidarity to Women">
+    </div>
+
+    <div class="item">
+      <img src="https://www.rainn.org/sites/default/files/1_in_6_Women%20122016.png" alt="RAINN Statistics">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
 <div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32">
   <h1><b>Stay Safe</b></h1>
-  <p>Feel safe everywhere you go <span class="w3-tag"></span></p>
+  <p><b> Feel safe everywhere you go <span class="w3-tag"></span></p></b>
+  <p><b>Let a bracelet protect you! </p></b>
 </header>
 
 <!-- Grid -->
@@ -48,20 +123,24 @@ and is wrapped around the whole page content, except for the footer in this exam
 <!-- Blog entries -->
 <div class="w3-col l8 s12">
   <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+  <div class="w3-card-4 w3-margin w3-white" id="section1" class="container-fluid">
     <div class="w3-container">
       <h3><b>WHAT IS THE SAFETY BRACELET</b></h3>
     </div>
 
     <div class="w3-container">
       <p>The safety bracelet is an electronic bracelet that can be worn by men and women. It has a little button that can pressed whenever the person is in danger. Pressing the button sends a message to a trusted contact with the location. </p>
+        <h4><b>How does it help?</b></h4>
+          <p> It helps by taking steps to ensure women's physical saftey.</p>
+        <h5><b>Does it fix the enitre problem?</b></h5>
+          <p> This doesn't fix the entire problem. This bracelet is one of the steps we can take to ensure that women feel safe until the problem is completely solved.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
           <!-- <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
         </div>
         <div class="w3-col m4 w3-hide-small">
           <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p> -->
+          
         </div>
       </div>
     </div>
@@ -69,17 +148,18 @@ and is wrapped around the whole page content, except for the footer in this exam
   <hr>
 
   <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+  <div class="w3-card-4 w3-margin w3-white" id="section2" class="container-fluid">
     <div class="w3-container">
       <h3><b>Mission</b></h3>
       <p> Our mission as young adults is to make sure everyone is safe wherever they go. We want people to feel like they are protected and in case there's an emergency, they can simply press the button their bracelet. </p>
 
     </div>
     <h3><b>Statistics</b></h3>
-            <p> 97% of rapists never spend a single day in jail for their crimes (RAINN)" </p>
-            <p> As a result of this "only 310 out of every 1,000 sexual assaults get reported (RAINN)" </p>
-            <p> 82% of all victims under 18 are female (RAINN))"</p>
+      <ul>
+            <li> 97% of rapists never spend a single day in jail for their crimes (RAINN)" </li>
+            <li> As a result of this "only 310 out of every 1,000 sexual assaults get reported (RAINN)" </li>
+            <li> 82% of all victims under 18 are female (RAINN))"</li>
+      </ul>
 
 
     <div class="w3-container">
@@ -93,32 +173,63 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div>
     </div>
   </div>
+
 <!-- END BLOG ENTRIES -->
 </div>
 
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-      <h4><b>The Creators</b></h4>
-      <p>April, Claudia, and Lizzy </p>
+<img src = "http://78.media.tumblr.com/510ac6b41c359a83873c778d49065aa0/tumblr_o38o319WWE1r43tiko1_500.png" alt = "Picture of a united community" <meta name= "description"content="UNIDOS"
 
+
+<!-- https://www.williamssoaring.com/images/about-us-contact-location/williams-map2-ca.jpg  -->
+
+
+
+
+
+
+
+<!-- Introduction menu -->
+<div class="w3-col l4" >
+  <!-- About Card -->
+
+    <div class="w3-container w3-white"  id="section3" class="container-fluid">
+      <h4><b>Location</b></h4>
+      <!-- <p>April, Claudia, and Lizzy </p> -->
+      <h1>I AM HERE</h1>
+      <img src = "https://www.williamssoaring.com/images/about-us-contact-location/williams-map2-ca.jpg" alt = "Picture of a united community" <meta name= "description"content="UNIDOS"
+
+      <div id="map" style="width:400px;height:400px;background:purple"></div></script>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- <button type="button" -->
+<!-- onclick="<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+)">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p> -->
+<p id="demo"></p>
+
+<script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
     </div>
   </div><hr>
-  <!-- Labels / tags -->
-  <!-- <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <!-- <h4>Tags</h4> -->
-    <!-- </div>
-    <div class="w3-container w3-white"> -->
-    <!-- <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-    </p> -->
     </div>
   </div>
 
@@ -135,3 +246,4 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 </body>
 </html>
+
